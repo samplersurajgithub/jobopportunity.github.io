@@ -786,7 +786,7 @@ body.modal-open{
     }
 
     .logo{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .apply-btn{
@@ -800,33 +800,103 @@ body.modal-open{
         gap: 6px;
     }
 
+    .hero{
+        padding: 110px 4% 46px;
+        gap: 30px;
+    }
+
     .hero-left h1{
-        font-size: 32px;
+        font-size: 30px;
+        line-height: 1.15;
+        margin-bottom: 18px;
     }
 
     .hero-left p{
-        font-size: 15px;
+        font-size: 14px;
+        line-height: 1.7;
+        margin-bottom: 24px;
+    }
+
+    .hero-button{
+        gap: 12px;
+        margin-bottom: 28px;
+    }
+
+    .btn-orange,
+    .btn-outline{
+        width: 100%;
+        max-width: none;
+        padding: 13px 16px;
+        text-align: center;
+    }
+
+    .hero-stats{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
     }
 
     .hero-stats > div{
         width: 100%;
+        text-align: left;
+        padding: 10px 12px;
+        background: rgba(255,255,255,0.08);
+        border-radius: 12px;
+    }
+
+    .hero-stats h3{
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 2px;
     }
 
     .job-preview{
-        padding: 20px;
-        border-radius: 16px;
+        padding: 18px;
+        border-radius: 14px;
+    }
+
+    .top{
+        align-items: flex-start;
+    }
+
+    .top h3{
+        font-size: 18px;
+    }
+
+    .top p{
+        font-size: 13px;
     }
 
     .badges{
         flex-direction: column;
+        gap: 8px;
     }
 
     .badges span{
         text-align: center;
     }
 
+    .floating-card{
+        padding: 16px 18px;
+        margin-top: 16px;
+    }
+
+    .metrics-section{
+        padding: 50px 4%;
+    }
+
     .metrics-section h3{
-        font-size: 30px;
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .metric-card{
+        padding: 24px 16px;
+        margin-top: 12px;
+    }
+
+    .companies{
+        padding: 50px 4%;
     }
 
     .company-grid{
@@ -834,19 +904,72 @@ body.modal-open{
     }
 
     .company-grid div{
-        height: 75px;
+        height: 72px;
+    }
+
+    .section-head{
+        justify-content: center;
+        text-align: center;
     }
 
     .section-head h2{
+        font-size: 24px;
+    }
+
+    .job,
+    .testimonials,
+    .mentor-section,
+    .work-flow{
+        padding: 56px 4%;
+    }
+
+    .job-card,
+    .testimonial-card{
+        padding: 20px;
+    }
+
+    .testimonial-grid{
+        gap: 16px;
+    }
+
+    .testimonial-user{
+        align-items: flex-start;
+    }
+
+    .testimonials .section-title{
         font-size: 28px;
     }
 
     .mentor-content h2{
+        font-size: 24px;
+    }
+
+    .mentor-stats{
+        gap: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .mentor-btn{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mentor-section h5{
         font-size: 28px;
     }
 
+    .work-grid{
+        gap: 16px;
+    }
+
+    .work-card{
+        padding: 24px 16px;
+    }
+
     .footer{
-        padding: 40px 5% 20px;
+        padding: 40px 4% 20px;
     }
 
     .footer-box input,
