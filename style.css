@@ -27,6 +27,16 @@ body{
     color: var(--text);
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+section{
+    width: 100%;
+}
+
 header{
     position: fixed;
     top: 0;
@@ -639,6 +649,16 @@ body.modal-open{
     }
 }
 
+@media (max-width: 1024px){
+    .work-grid{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .mentor-section{
+        padding: 70px 6%;
+    }
+}
+
 @media (max-width: 768px){
     .nav{
         min-height: 65px;
@@ -746,6 +766,18 @@ body.modal-open{
         align-items: center;
         text-align: center;
     }
+
+    .mentor-section{
+        padding: 60px 5%;
+    }
+
+    .work-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .work-card{
+        padding: 28px 20px;
+    }
 }
 
 @media (max-width: 480px){
@@ -774,6 +806,10 @@ body.modal-open{
 
     .hero-left p{
         font-size: 15px;
+    }
+
+    .hero-stats > div{
+        width: 100%;
     }
 
     .job-preview{
