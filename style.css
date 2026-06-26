@@ -139,9 +139,7 @@ header{
     color:var(--orange);
 }
 
-/* ==========================
-        Tablet
-========================== */
+/* nav ke liye responsive */
 
 @media(max-width:992px){
 
@@ -167,9 +165,7 @@ header{
 
 }
 
-/* ==========================
-        Mobile
-========================== */
+/*Mobile */
 
 @media(max-width:768px){
 
@@ -206,9 +202,7 @@ header{
 
 }
 
-/* ==========================
-      Small Mobile
-========================== */
+/* Small Mobile */
 
 @media(max-width:480px){
 
@@ -239,7 +233,7 @@ header{
 }
 
 }
-/* ================= MODAL ================= */
+/* MODAL */
 
 .modal-overlay{
     position:fixed;
@@ -408,7 +402,7 @@ body.modal-open{
     overflow:hidden;
 }
 
-/* ================= TABLET ================= */
+/* TABLET */
 
 @media (max-width:768px){
 
@@ -427,7 +421,7 @@ body.modal-open{
 
 }
 
-/* ================= MOBILE ================= */
+/* MOBILE */
 
 @media (max-width:480px){
 
@@ -476,7 +470,7 @@ body.modal-open{
     font-size:20px;
 }
 
-}/* ================= HERO ================= */
+}/* HERO  */
 
 .hero{
     min-height:100vh;
@@ -636,7 +630,7 @@ transform:translateY(0);
     font-size:14px;
 }
 
-/* ================= TABLET ================= */
+/*  TABLET */
 
 @media(max-width:992px){
 
@@ -668,7 +662,7 @@ transform:translateY(0);
 
 }
 
-/* ================= MOBILE ================= */
+/*  MOBILE */
 
 @media(max-width:768px){
 
@@ -710,7 +704,7 @@ transform:translateY(0);
 
 }
 
-/* ================= SMALL MOBILE ================= */
+/* SMALL MOBILE  */
 
 @media(max-width:480px){
 
@@ -745,7 +739,7 @@ transform:translateY(0);
     text-align:center;
 }
 
-}/* ================= FEATURED CARD ================= */
+}/*  FEATURED CARD  */
 
 .featured{
     display:inline-block;
@@ -825,7 +819,7 @@ transform:translateY(0);
     color:var(--muted);
 }
 
-/* ================= METRICS ================= */
+/* METRICS */
 
 .metrics-section{
     padding:70px 20px;
@@ -880,7 +874,7 @@ transform:translateY(0);
     margin-bottom:10px;
 }
 
-/* ================= TABLET ================= */
+/*  TABLET  */
 
 @media(max-width:992px){
 
@@ -895,7 +889,7 @@ transform:translateY(0);
 
 }
 
-/* ================= MOBILE ================= */
+/*  MOBILE */
 
 @media(max-width:768px){
 
@@ -928,7 +922,7 @@ transform:translateY(0);
 
 }
 
-/* ================= SMALL MOBILE ================= */
+/* SMALL MOBILE  */
 
 @media(max-width:480px){
 
@@ -966,7 +960,8 @@ transform:translateY(0);
     font-size:15px;
 }
 
-}/* ================= COMPANIES ================= */
+}
+/* company  */
 
 .companies{
     padding:90px 8%;
@@ -1005,7 +1000,8 @@ transform:translateY(0);
     box-shadow:0 15px 40px rgba(0,0,0,.08);
 }
 
-/* ================= RESPONSIVE ================= */
+
+/* hero responsive  */
 
 @media(max-width:1100px){
 
@@ -1433,7 +1429,7 @@ transform:translateY(0);
     padding:50px 20px;
 }
 
-}   /* ================= JOB SECTION ================= */
+}   /* JOB SECTION */
 
 .job{
     padding:clamp(60px,8vw,100px) 8%;
@@ -1520,7 +1516,7 @@ transform:translateY(0);
     background:#cf4f1b;
 }
 
-/* ================= RESPONSIVE ================= */
+/* RESPONSIVE */
 
 @media(max-width:768px){
 
@@ -1589,7 +1585,7 @@ transform:translateY(0);
     padding:13px;
 }
 
-}/* ================= TESTIMONIALS ================= */
+}/* TESTIMONIALS  */
 
 .testimonials{
     padding:clamp(60px,8vw,100px) 8%;
@@ -1684,7 +1680,7 @@ transform:translateY(0);
     font-weight:600;
 }
 
-/* ================= FOOTER ================= */
+/* FOOTER  */
 
 .footer{
     padding:70px 8% 25px;
@@ -1769,7 +1765,7 @@ transform:translateY(0);
     color:#d6d6d6;
 }
 
-/* ================= TABLET ================= */
+/*  TABLET */
 
 @media(max-width:992px){
 
@@ -1783,7 +1779,7 @@ transform:translateY(0);
 
 }
 
-/* ================= MOBILE ================= */
+/*  MOBILE */
 
 @media(max-width:768px){
 
@@ -1815,7 +1811,7 @@ transform:translateY(0);
 
 }
 
-/* ================= SMALL MOBILE ================= */
+/* SMALL MOBILE  */
 
 @media(max-width:480px){
 
@@ -1855,7 +1851,7 @@ transform:translateY(0);
     padding:12px;
 }
 
-}/* ================= SOCIAL ================= */
+}/* SOCIAL  */
 
 .social{
     display:flex;
@@ -1875,7 +1871,7 @@ transform:translateY(0);
     transform:translateY(-3px);
 }
 
-/* ================= MENTOR ================= */
+/* MENTOR  */
 
 .mentor-section{
     padding:90px 8%;
@@ -1962,7 +1958,7 @@ transform:translateY(0);
     transform:translateY(-3px);
 }
 
-/* ================= WORK FLOW ================= */
+/*  WORK FLOW  */
 
 .work-flow{
     padding:90px 8%;
@@ -2019,7 +2015,7 @@ transform:translateY(0);
     line-height:1.7;
 }
 
-/* ================= TABLET ================= */
+/*  TABLET */
 
 @media(max-width:992px){
 
@@ -2043,7 +2039,7 @@ transform:translateY(0);
 
 }
 
-/* ================= MOBILE ================= */
+/* MOBILE  */
 
 @media(max-width:768px){
 
@@ -2080,8 +2076,7 @@ transform:translateY(0);
 }
 
 }
-
-/* ================= SMALL MOBILE ================= */
+/* work flow  */
 
 @media(max-width:480px){
 
